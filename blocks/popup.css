@@ -94,6 +94,11 @@
   opacity: 0.6;
 }
 
+.popup__save-button-disabled{
+  background-color: #ccc;
+  cursor: default;
+}
+
 @media screen and (max-width: 768px) {
   .popup__container {
     padding: 25px 22px;
@@ -118,6 +123,10 @@
     height: 46px;
     font-size: 14px;
     line-height: 17px;
+  }
+  .popup__save-button-disabled{
+    background-color: #ccc;
+    cursor: default;
   }
 }
 
